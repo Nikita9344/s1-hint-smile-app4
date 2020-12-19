@@ -11,6 +11,7 @@ import json, glob
 from datetime import datetime
 from pathlib import Path
 import random
+import webbrowser
 
 # load user interface design
 Builder.load_file('uidesign.kv')
@@ -51,10 +52,18 @@ class LoginScreenSuccess(Screen):
         self.manager.transition.direction = "right"
         self.manager.current = "login_screen"
 
+    def open_link(self, content_type):
+        with open(f"Funny/{content_type}.txt") as file:
+            links =file.readlines()
+        webbrowser.open(random.choice(links))
+
+
     def get_quote(self, feel):
         feel = feel.lower()
         available_feelings = glob.glob("quotes/*txt")
-        available_feelings = [Path(filename).stem for filename in available_feelings]
+        print(available_feelings)
+        # returns list 
+        available_feelings = [Path(filename).stem for filename in available_feelings] 
         print(available_feelings)
         print(feel)
         if feel in available_feelings:
@@ -64,7 +73,10 @@ class LoginScreenSuccess(Screen):
                 quotes = file.readlines()
             self.ids.quote.text = random.choice(quotes)   
         else:
-             self.ids.quote.text = "Try another feeling" 
+             self.ids.quote.text = "What else do you feel?" 
+
+    
+
 
 class RootWidget(ScreenManager):
     pass

@@ -104,10 +104,15 @@
             cols: 2
             
             Button:
+                id: video
                 text: "Videos"
-                # on_press: root.video_link()
+                # on_press: root.open_video_link()
+                on_press: root.open_link(root.ids.video.text)
             Button:
+                id: meme
                 text: "Memes"
+                # on_press: root.open_meme_link()
+                on_press: root.open_link(root.ids.meme.text)
 
 
 # to list all the screens
