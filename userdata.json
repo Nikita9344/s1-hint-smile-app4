@@ -1,0 +1,22 @@
+{
+    "user1": {
+        "username": "billie",
+        "password": "billie",
+        "created": "2018-07-07 00:16:28.293901"
+    },
+    "nikita": {
+        "username": "nikita",
+        "password": "nikita",
+        "created": "2020-12-18 22-29-20"
+    },
+    "sanskruti": {
+        "username": "sanskruti",
+        "password": "sanskruti",
+        "created": "2020-12-19 02-10-36"
+    },
+    "priyamvada": {
+        "username": "priyamvada",
+        "password": "priyamvada",
+        "created": "2020-12-19 02-13-12"
+    }
+}
