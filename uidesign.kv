@@ -81,12 +81,16 @@
                     text: "Logout"
                     on_press: root.log_out()
             Label:
-                text: "How are you feeling?"
+                text: "How are you feeling now?"
             TextInput:
                 id: feeling
-                hint_text: "Things to try: happy, sad, unloved..."
+                hint_text: "Enter : positve, negative, unbeloved, motivational..."
             Button:
                 text: "Enlighten me"
+                on_press: root.get_quote(root.ids.feeling.text)
+            Label:
+                id: quote
+                text: ""
                 
         GridLayout:
             cols: 1
@@ -101,7 +105,7 @@
             
             Button:
                 text: "Videos"
-                on_press: root.video_link()
+                # on_press: root.video_link()
             Button:
                 text: "Memes"
 
