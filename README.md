@@ -7,6 +7,10 @@ Team86- Tillandsia
  
 # App Development Status: 
 
+19-Dec-2020, 1:15 pm:
+
+Implemented the login and the feeling functionalities
+
 # 19-Dec-2020, 12.00 pm:
 # Successfully commited source code from older repository "s1-hint-smile-app" to the newer repository "s1-hint-smile-app4". Login credential related issue is fixed now.
 
