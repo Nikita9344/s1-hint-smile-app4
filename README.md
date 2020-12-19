@@ -7,12 +7,11 @@ Team86- Tillandsia
  
 # App Development Status: 
 
-# 19-Dec-2020, 11:07 am:
-Successfully commited source code from older repository "s1-hint-smile-app" to the newer repository "s1-hint-smile-app2". Login credential related issue is fixed now.
+# 19-Dec-2020, 12.00 pm:
+# Successfully commited source code from older repository "s1-hint-smile-app" to the newer repository "s1-hint-smile-app4". Login credential related issue is fixed now.
 
-# 19-Dec-2020, 8:30 am:
-
-Just noticed that some of the earlier commits were done through some other login by mistake which seems to be due to cached login credentials on my local machine. I am now recreating new repository- "s1-hint-smile-app2". Will give public access after source code is committed
+19-Dec-2020, 11:07 am:
+"s1-hint-smile-app3". Still solving Login credential related issue...
 
 
 19-Dec-2020, 3:05 am:
