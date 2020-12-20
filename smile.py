@@ -12,6 +12,9 @@ from datetime import datetime
 from pathlib import Path
 import random
 import webbrowser
+from hoverable import HoverBehavior
+from kivy.uix.image import Image
+from kivy.uix.behaviors import ButtonBehavior
 
 # load user interface design
 Builder.load_file('uidesign.kv')
@@ -75,7 +78,9 @@ class LoginScreenSuccess(Screen):
         else:
              self.ids.quote.text = "What else do you feel?" 
 
-    
+class ImageButton(ButtonBehavior, HoverBehavior, Image):
+    pass
+
 
 
 class RootWidget(ScreenManager):

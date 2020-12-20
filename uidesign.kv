@@ -53,6 +53,7 @@
             hint_text: "Enter Username"
         TextInput:
             id: password
+            password: True
             hint_text: "Enter Password"
         Button:   
             text: "Submit"
@@ -77,16 +78,18 @@
             padding: 30, 30
             spacing: 30, 30
             RelativeLayout:    
-                Button:
-                    text: "Logout"
+                ImageButton:
                     on_press: root.log_out()
+                    source: "logout_hover.png" if self.hovered  else "logout_nothover.png"
+                    size_hint: 0.35, 0.35
+                    pos_hint: {'center_x': 0.93, 'center_y': 0.8}
             Label:
                 text: "How are you feeling now?"
             TextInput:
                 id: feeling
                 hint_text: "Enter : positve, negative, unbeloved, motivational..."
             Button:
-                text: "Enlighten me"
+                text: "Find a perfect quote to suit your mood"
                 on_press: root.get_quote(root.ids.feeling.text)
             Label:
                 id: quote

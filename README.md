@@ -1,11 +1,22 @@
 # Smile Cross-Platform App
 # Our goal is to motivate and make people smile during this pandemic
+
  
 Hacka-demic Hackathon
 
 Team86- Tillandsia 
- 
+
+How about this?
+"Are you so elated that you are short on your words? Do you need those right words to express your feelings? are you in a mood to laugh and looking for a perfect meme to describe your hilarious day? Are you looking for a quote/memes to suit your status and frame of mind today? Unable to keep up with latest trend and lingos? Invited your friends over, its awkward and empty? Here we bring to you, an incredible and easy to use app.Just stream a list funny videos to ease the air😉!! Smile will help you fill those blank spaces in your day and find for you memes and funny videos that will make your day!!! Hurry and look up your own quote/memes/videos for your current mood!!!"
+
+
+
+
 # App Development Status: 
+
+19-Dec-2020, 5:44 pm:
+
+links for funny videos and memes implemented
 
 19-Dec-2020, 1:15 pm:
 
